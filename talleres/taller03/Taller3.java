@@ -61,12 +61,12 @@ public class Taller3 {
      *
      */
     private static void permutationAux(String prefix, String str) {
-        int n = _________;
+        
         if (n == 0)
-        System.out.println(prefix);
+        System.out.println(
 	else {
-            for (int i = 0; i _____ n; i++)
-            permutation( _________________ , str.substring(0, i) + str.substring( _____ , n));
+            
+            permutation(
         }
     }
 
