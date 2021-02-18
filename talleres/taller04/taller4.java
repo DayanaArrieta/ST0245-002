@@ -1,4 +1,21 @@
 public class taller4 {
+    public void main(String[] String) {
+        for (int a = 20; a < 40; a++) {
+            long inicio = System.currentTimeMillis();
+            int[] array = new int[a];
+            long fin = System.currentTimeMillis();
+            long total = fin - inicio;
+            System.out.println("El tiempo total fue de " + total + " ms");
+        }
+        for (int i = 30; i < 50; i++) {
+            long inicio = System.currentTimeMillis();
+            System.out.println(fibonacci(i));
+            long fin = System.currentTimeMillis();
+            long total = fin - inicio;
+            System.out.println("El tiempo total fue de " + total + " ms");
+        }
+}
+
     /**
      * @param array es un arreglo de numeros enteros
      * @param n la longitud del array anterior
@@ -9,15 +26,17 @@ public class taller4 {
      * @return la suma
      */
     public static int arrayMax(int[] array, int n) {
-        int i, max, temp;
-        max = array[ n ];
-        if(n != 0){
-            temp = arrayMax(array, n-1 );
-            if(temp > max)
-                max = temp;
+            int i, max, temp;
+            max = array[n]; // c1 = 1
+            if (n != 0) { // c2 = 1
+                temp = arrayMax(array, n - 1); //  t(n) = c2 + t(n-1)
+                if (temp > max) // c3 = 1
+                    max = temp; // c4 = 1
+            }
+            return max; // t(n) = c1 + c2 + c3 + t(n-1)
+        // t(n) = t(n-1)
         }
-        return max;
-    }
+
 
     /**
      * @param start es un contador, nos sirve para saber cuando debemos parar
@@ -46,6 +65,7 @@ public class taller4 {
      * @see <a href="https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci"> fibonnaci <a/>
      * @return el valor encontrado en long dada la posible cantidad de bits
      */
+
     public int fibonacci(int n){
         if (n <= 1) {
             return n;
@@ -56,4 +76,5 @@ public class taller4 {
     }
 
 }
+
 
