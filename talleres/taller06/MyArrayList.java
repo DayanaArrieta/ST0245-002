@@ -1,7 +1,7 @@
 package Taller6;
 import java.util.Arrays;
 /**
- * La clase MiArrayList tiene la intención de representar un objeto que simule el comportamiento
+ * La clase MyArrayList tiene la intención de representar un objeto que simule el comportamiento
  * de la clase ya implementada "ArrayList"
  * @author Dayana Arrieta, Juan José Quintana
  * @version 1
