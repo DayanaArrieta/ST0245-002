@@ -7,7 +7,6 @@ import java.util.*;
  * @author Mauricio Toro, Dayana Arrieta, Juan José Quintana
  */
 
-//Nota: Hacen falta algunas partes de las lineas de codigo, estas estan indicadas con una linea, ¡debes completarlas!
 public class Taller8 {
 
     /**
@@ -64,6 +63,4 @@ public class Taller8 {
         while (!queue.isEmpty())
             System.out.println("Atendiendo a " + queue.poll());
     }
-
-
 }
