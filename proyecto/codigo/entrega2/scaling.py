@@ -1,3 +1,8 @@
+# Authors: Dayana Arrieta & Juan José Quintana
+# Date: 2021 Version: 1
+# This python algorithm is about using a csv file 
+# and compressing it in an image format with the scaling method
+
 import pandas as pd
 df = pd.read_csv('vaca 1.csv')
 #print(df)
