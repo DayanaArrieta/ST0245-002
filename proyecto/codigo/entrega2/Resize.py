@@ -5,7 +5,7 @@ import csv
 import cv2
 
 # Authors: Dayana Arrieta & Juan José Quintana
-# Date: 2021
+# Date: 2021 Version: 1
 # This python algorithm is about using csv files 
 # and compressing them in an image format with the scaling method
 
