@@ -1,3 +1,8 @@
+/**
+ * This code has all three requests of the second workshop.
+ * @author: Dayana Arrieta & Juan José Quintana.
+ * @version: 03/02/2021
+ */
 public class Taller2{
 
     public static int gcd(int p, int q){
